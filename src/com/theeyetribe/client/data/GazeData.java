@@ -127,7 +127,7 @@ public class GazeData
             ticker = true;
         }
 
-        if ((STATE_TRACKING_GAZE & state) != 0)
+        if ((STATE_TRACKING_EYES & state) != 0)
         {
             stateString += (ticker ? " | " : "") + "STATE_TRACKING_EYES";
             ticker = true;
